@@ -1,0 +1,29 @@
+stages:
+  - build
+  - test
+  - package
+
+variables:
+  GODOT_VERSION: "3.2.3"
+
+build:
+  stage: build
+  script:
+    -./build.sh build
+  artifacts:
+    paths:
+      - godot-$GODOT_VERSION
+
+test:
+  stage: test
+  script:
+    -./build.sh test
+  dependencies:
+    - build
+
+package:
+  stage: package
+  script:
+    -./build.sh package
+  dependencies:
+    - build
