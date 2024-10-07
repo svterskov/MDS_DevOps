@@ -1,4 +1,6 @@
-# System Architecture
+# Software Architecture Assignment
+
+## System Architecture
 
 This system architecture consists of the following components:
 
@@ -13,8 +15,10 @@ This system architecture consists of the following components:
 * **Database**: The central database for storing system data.
 * **Search Service**: Provides search functionality for the system.
 * **Integration Service**: Handles integrations with external systems and services.
-
+  
 The system architecture is designed to be modular and scalable, with each service communicating with the API Gateway to provide a unified interface for client applications.
+
+More details in [report.md](report.md)
 
 ## Diagram
 
@@ -34,3 +38,5 @@ Diagram Slack-like System Design {
 }
 ```
 This diagram shows the high-level architecture of the system, with the client applications interacting with the API Gateway, which in turn interacts with the various services.
+
+![Diagram](d2-diagram.svg) 
