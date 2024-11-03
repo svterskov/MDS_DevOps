@@ -4,4 +4,4 @@
 Данное приложение предоставляет API для вычисления чисел Фибоначчи с двумя реализациями: "Правильное решение" и "Запасное решение". "Правильное решение" вычисляет любые числа Фибоначчи, в то время как "Запасное решение" работает только для чисел в диапазоне от -20 до 20.
 
 ## Docker
-Docker-образ размещён в публичном репозитории [https://hub.docker.com/r/svterskov/mds](https://hub.docker.com/r/svterskov/mds)
+Docker-образ размещён в публичном репозитории [https://hub.docker.com/r/svterskov/fibonacci-app](https://hub.docker.com/r/svterskov/fibonacci-app)
